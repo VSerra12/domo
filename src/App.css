@@ -1,0 +1,191 @@
+@import 'bootstrap';
+/* La hoja de estilos de Bootstrap */
+
+* {
+  font-family: 'circular';
+}
+
+.navbar {
+  background-color: #FDFDFE !important;
+  padding: 1rem 0rem !important;
+}
+
+.navbar>.container-fluid {
+  font-size: 1.2rem;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  background-color: #FDFDFE !important;
+}
+
+.vl {
+  border-left: 0.2rem solid #E1E1E1;
+  height: 3rem;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+  color: #022B41;
+  font-weight: bold;
+}
+
+.navbar-nav>.nav-item>.nav-link:focus {
+  color: #2C506A;
+}
+
+.dropdown .dropdown-toggle::after {
+  content: url('assets/arrow-down.svg');
+  /* Ruta a tu SVG */
+  margin-left: 0;
+  vertical-align: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.consultation {
+  border: 0.2rem solid #022B41 !important;
+  border-radius: 2rem !important;
+  font-weight: bold !important;
+  padding: 0.5rem 1.5rem 0.3rem !important;
+  font-size: 1.1rem !important;
+  color: #022B41 !important;
+}
+
+.consultation::after {
+  content: url(/src/assets/arrow-right.svg);
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: -0.2rem;
+  border-bottom: 0;
+}
+
+.col-text {
+  background-color: #022B41;
+  color: #FDFDFE;
+  display: flex;
+  justify-content: center;
+  padding: 7rem 0;
+}
+
+.horizon-padding {
+  width: fit-content;
+  padding: 0px 8rem !important;
+}
+
+.welcome-text {
+  border: 0.2rem solid #e1e1e189;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3.5rem !important;
+}
+
+h1>span {
+  border-bottom: 0.25rem solid dodgerblue;
+}
+
+.elevate-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.contact-button-box {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.contact-button {
+  text-decoration: none;
+  background-color: #FDFDFE;
+  border-radius: 2rem;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  color: #022B41;
+}
+
+.contact-button::after {
+  content: url(/src/assets/arrow-right.svg);
+  display: inline-block;
+  margin-left: .5rem;
+  vertical-align: -0.2rem;
+  border-bottom: 0;
+}
+
+.book {
+  width: fit-content;
+  font-size: 1rem !important;
+  border: 0.2rem solid #022B41 !important;
+  border-radius: 2rem !important;
+  font-weight: bold !important;
+  padding: 0.4rem 0.9rem !important;
+  color: #022B41 !important;
+}
+
+.form-text>h2 {
+  color: #022B41;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.form-consultation {
+  margin-top: 2.5rem;
+}
+
+.form-consultation input,
+.form-consultation textarea {
+  border: 3px solid #E1E1E1 !important;
+  color: #022B41 !important;
+  padding: 1rem !important;
+}
+
+.form-consultation input::placeholder,
+.form-consultation textarea::placeholder {
+  color: #022B41;
+  font-weight: 700;
+}
+
+.form-consultation textarea {
+  height: 8rem;
+}
+
+.col-form {
+  background-image: url(assets/minimalist-office-interior-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-box {
+  background-color: #FDFDFE;
+  padding: 2rem;
+  margin: 8rem;
+}
+
+.btn-contact {
+  width: 100%;
+  background: #FDFDFE !important;
+  color: #022B41 !important;
+  border: 3px solid #022B41 !important;
+  font-weight: 700 !important;
+  padding: 0.8rem !important;
+  font-size: 1.2rem !important;
+}
+
+.col-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-quantity {
+  color: #aaaaaa;
+}
